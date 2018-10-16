@@ -1,0 +1,20 @@
+{
+  "name": "unreal-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unrealyan/unrealTools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unrealyan/unrealTools/issues"
+  },
+  "homepage": "https://github.com/unrealyan/unrealTools#readme"
+}
