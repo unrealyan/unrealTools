@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "module": "umd",
+      // "esModuleInterop":true,
+      "target": "es5",
+      "outDir": "./dist",
+      "lib": [
+        "es5",
+        "dom",
+        "es2015",
+        "es2015.core",
+        "es2016"
+      ]
+      // "outFile": "./dist/index1.js"
+      // "sourceMap": true
+  }
+}
