@@ -1,11 +1,13 @@
-import Finance from './class/finance';
-import Restful from './class/restful';
-import DateTool from './class/date'
+import Finance from './class/Finance';
+import Restful from './class/RestUrl';
+import DateTool from './class/Date';
+import RestApi from './class/RestApi'
 
 
 export {
     Finance,
     Restful,
-    DateTool
+    DateTool,
+    RestApi
 }
 

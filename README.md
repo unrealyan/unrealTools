@@ -13,18 +13,30 @@
 
     // return 2018-10-18
 
+***
+
 ## Api category
-> Finance
-    thousands(input:number|string):string
+| api category | api name | params/type | description |
+| ------ | ------ | ------ | ------ |
+| **`Finance`** | thousands | `string|number` | input 1000.009 output 1,000.009 |
+| **`Restful`** | objectToQueryString | `object` | example" `{username:"unrealyan",password:"password"}` return `?username=unrealyan&password=password` |
+| **`Restful`** | getParameter | `string` `string` |  |
+| **`Restful`** | getParameterByName | `object` |  |
+| **`DateTool`** | format | `date` | format('yyyy-MM-dd') 2018-10-18 |
+
+---
+
+> **Finance**
+    ` thousands(input:number|string):string`
 >
 
 
-> Restful
-    objectToQueryString(obj:object):any
-    getParameter(name:string,all:string):string
-    getParameterByName(name:string,url:string):any
+> **Restful**
+    `objectToQueryString(obj:object):any`
+    `getParameter(name:string,all:string):string`
+    `getParameterByName(name:string,url:string):any`
 >
 
->  DateTool
-    format:any
+>  **DateTool**
+    `format:any`
 >
