@@ -6,9 +6,9 @@ let httpClient = new HttpClient("/index.html")
 
 export default class RestApi {
   [x: string]: any;
-  constructor(entityName, servicePath, options) {
+  constructor(entityName, serverApiPath, options) {
     this.entityName = entityName;
-    this.servicePath = servicePath || "/api";
+    this.serverApiPath = serverApiPath || "/api";
     this.options = Object.assign(
       {
         removeEmpty: true,
