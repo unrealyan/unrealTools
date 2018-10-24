@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-      "module": "umd",
+      "module": "amd",
       // "esModuleInterop":true,
-      "target": "es5",
+      "target": "es6",
       "outDir": "./dist",
       "lib": [
         "es5",
@@ -10,8 +10,15 @@
         "es2015",
         "es2015.core",
         "es2016"
-      ]
-      // "outFile": "./dist/index1.js"
+      ],
+      "outFile": "./index.js"
       // "sourceMap": true
-  }
+  },
+  "include": [
+    "src/**/*"
+],
+"exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+]
 }
