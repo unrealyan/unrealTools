@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Restful {
+export default class RestUrl {
     constructor() {
         this.getParameter = (name, all) => {
             const query = window.location.search.substring(1);
@@ -50,4 +48,3 @@ class Restful {
         return `?${str.join("&")}`;
     }
 }
-exports.default = Restful;

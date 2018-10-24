@@ -1,7 +1,7 @@
 import HttpClient from "./HttpClient";
-import restUrl from "./RestUrl";
+import RestUrl from "./RestUrl";
 
-let rest = new restUrl();
+let rest = new RestUrl();
 let httpClient = new HttpClient("/index.html")
 
 export default class RestApi {

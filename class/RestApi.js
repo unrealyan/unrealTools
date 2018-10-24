@@ -1,4 +1,3 @@
-"use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
@@ -7,12 +6,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-const HttpClient_1 = require("./HttpClient");
-const RestUrl_1 = require("./RestUrl");
-let rest = new RestUrl_1.default();
-let httpClient = new HttpClient_1.default("/index.html");
-class RestApi {
+import HttpClient from "./HttpClient";
+import RestUrl from "./RestUrl";
+let rest = new RestUrl();
+let httpClient = new HttpClient("/index.html");
+export default class RestApi {
     constructor(entityName, servicePath, options) {
         this.removeEmptyParams = (obj) => {
             for (var propName in obj) {
@@ -85,4 +83,3 @@ class RestApi {
     }
     ;
 }
-exports.default = RestApi;

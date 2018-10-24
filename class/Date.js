@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class DateTool {
+export default class DateTool {
     format(date, fmt) {
         let o = {
             "M+": date.getMonth() + 1,
@@ -19,4 +17,3 @@ class DateTool {
         return fmt;
     }
 }
-exports.default = DateTool;

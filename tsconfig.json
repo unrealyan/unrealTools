@@ -1,24 +1,27 @@
 {
   "compilerOptions": {
-      "module": "amd",
-      // "esModuleInterop":true,
-      "target": "es6",
-      "outDir": "./dist",
-      "lib": [
-        "es5",
-        "dom",
-        "es2015",
-        "es2015.core",
-        "es2016"
-      ],
-      "outFile": "./index.js"
-      // "sourceMap": true
+    "module": "ES2015",
+    // "esModuleInterop":true,
+    "target": "ES2015",
+    "outDir": "./",
+    "lib": [
+      "es5",
+      "dom",
+      "es2015",
+      "es2015.core",
+      "es2016"
+    ],
+    // "outFile": "./index.js"
+    // "sourceMap": true
   },
+  // "references": [{
+  //   "path": "/"
+  // }],
   "include": [
     "src/**/*"
-],
-"exclude": [
+  ],
+  "exclude": [
     "node_modules",
     "**/*.spec.ts"
-]
+  ]
 }

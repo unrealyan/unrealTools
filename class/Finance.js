@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Finance {
+export default class Finance {
     constructor() {
         // 金额千分位
         this.thousands = (input) => {
@@ -9,4 +7,3 @@ class Finance {
         };
     }
 }
-exports.default = Finance;

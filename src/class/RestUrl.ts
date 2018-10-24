@@ -4,7 +4,7 @@ interface Func{
     getParameterByName(name:string,url:string):any
 }
 
-export default class Restful implements Func{
+export default class RestUrl implements Func{
     objectToQueryString (obj:any) {
         let str:any = [];
         for (let p in obj)

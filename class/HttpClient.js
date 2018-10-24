@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const executeRequest = (url, method, headers, data) => new Promise((resole, reject) => {
     let xhr = new XMLHttpRequest();
     if (headers && headers['Authorization']) {
@@ -71,4 +69,4 @@ class HttpClient {
         return executeRequest(url, 'DELETE', headers, null);
     }
 }
-exports.default = HttpClient;
+export default HttpClient;
